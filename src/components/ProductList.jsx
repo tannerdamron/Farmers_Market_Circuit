@@ -273,8 +273,17 @@ const availableProduce = [
 function ProductList() {
   return (
     <div>
-      <style jsx>{``}</style>
+      <style jsx>{`
+      .header {
+        color: white;
+        text-align: center;
+        font-size: 40px;
+        text-shadow: 1px 1px black;
+        text-decoration: underline;
+      }
+      }`}</style>
       <div>
+      <h1 className="header">Produce by month</h1>
         {availableProduce.map((month, index) => (
           <Product
             month={month.month}

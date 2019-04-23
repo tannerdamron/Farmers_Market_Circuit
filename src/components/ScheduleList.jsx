@@ -44,8 +44,16 @@ function ScheduleList() {
   return (
     <div>
       <style jsx>{`
+      .header {
+        color: white;
+        text-align: center;
+        font-size: 40px;
+        text-shadow: 1px 1px black;
+        text-decoration: underline;
+      }
       `}</style>
       <div>
+      <h1 className="header">Schedule</h1>
         {marketSchedule.map((day, index) =>
           <Schedule day={day.day}
           location={day.location}

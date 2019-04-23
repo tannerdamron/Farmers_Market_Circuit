@@ -5,13 +5,13 @@ function Header() {
     <div>
       <style jsx>{`
         .header {
-          color: #78D565;
+          color: white;
           text-align: center;
           font-size: 50px;
           text-shadow: 1px 1px black;
         },
         .text {
-          color: #78D565;
+          color: white;
           text-align: center;
           text-shadow: .5px .5px black;
           font-size: 30px;

@@ -8,6 +8,8 @@ function Schedule(props) {
         <style jsx global>{`
           .day {
             margin-top: 30px;
+            font-size: 25px;
+            text-shadow: 1px 1px black;
           }
           .lineWidth {
             width: 300px;

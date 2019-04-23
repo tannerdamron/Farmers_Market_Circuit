@@ -12,6 +12,8 @@ function Product(props) {
           }
           .word-wrap {
             word-wrap: break-word;
+            font-size: 20px;
+            text-shadow: 1px 1px black;
           }
         `}</style>
       </div>
