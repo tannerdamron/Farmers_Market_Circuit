@@ -1,5 +1,6 @@
 import React from "react";
 import Product from "./Product";
+import lettuce from '../assets/images/lettuce.jpg'
 
 const availableProduce = [
   {
@@ -283,11 +284,12 @@ function ProductList() {
       }
       }`}</style>
       <div>
+      <img src={lettuce}/>
       <h1 className="header">Produce by month</h1>
         {availableProduce.map((month, index) => (
           <Product
             month={month.month}
-            produce={month.selection.map((i) => 
+            produce={month.selection.map((i) =>
               <li>{i}</li>
               )}
             key={index}

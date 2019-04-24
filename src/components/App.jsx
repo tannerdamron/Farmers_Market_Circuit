@@ -4,6 +4,7 @@ import Navbar from './Navbar';
 import Home from './Home';
 import About from './About';
 import Contact from './Contact';
+import Error404 from './Error404';
 
 
 function App(){
@@ -25,6 +26,7 @@ function App(){
         <Route exact path='/' component={Home}/>
         <Route path='/about' component={About}/>
         <Route path='/contact' component={Contact}/>
+        <Route component={Error404} />
       </Switch>
     </div>
   );
